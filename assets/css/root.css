@@ -1,0 +1,100 @@
+:root {
+    /* font-family */
+    --font-family-primary: "Rubik", serif;
+    /* color */
+    --color-liberty-blue: #0B132A;
+    --color-dark-mineral: #4F5665;
+    --color-radish-lips: #F53855;
+    --color-flamboyant: #F53838;
+    /* font-size */
+    --fs-extra-small: 14px;
+    --fs-sm: 18px;
+    --fs-md: 25px;
+    --fs-lg: 35px;
+    --fs-xl: 50px;
+    /* line-height */
+    --lh-18: 18.96px;
+    --lh-23: 23.7px;
+    --lh-25: 25px;
+    --lh-30: 30px;
+    --lh-50: 50px;
+    --lh-70: 70px;
+}
+
+/* font-family */
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+/* color */
+.color-liberty-blue {
+    color: var(--color-liberty-blue);
+}
+
+.color-dark-mineral {
+    color: var(--color-dark-mineral);
+}
+
+.color-radish-lips {
+    color: var(--color-radish-lips);
+}
+
+.color-flamboyant {
+    color: var(--color-flamboyant);
+}
+
+/* font-size */
+.fs-extra-small {
+    font-size: var(--fs-extra-small);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+/* line-height */
+
+.lh-18 {
+    line-height: var(--lh-18);
+}
+
+.lh-23 {
+    line-height: var(--lh-23);
+}
+
+.lh-25 {
+    line-height: var(--lh-25);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-50 {
+    line-height: var(--lh-50);
+}
+
+.lh-70 {
+    line-height: var(--lh-70);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-xl: 35px;
+        --lh-70: normal;
+        --fs-lg:28px;
+        --lh-50: normal;
+    }
+}

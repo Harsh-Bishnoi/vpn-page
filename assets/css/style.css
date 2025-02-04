@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url(./root.css);
+
+/* max-width */
+.max-w-1140 {
+    max-width: 1140px !important;
+}
+
+.max-w-555 {
+    max-width: 555px;
+}
+
+.max-w-611 {
+    max-width: 611px;
+}
+
+.max-w-383 {
+    max-width: 383px;
+}
+
+.max-w-430 {
+    max-width: 430px;
+}
+
+.max-w-508 {
+    max-width: 508px;
+}
+
+.max-w-144 {
+    max-width: 144px;
+}
+
+.max-h-165 {
+    max-height: 165px;
+}
+
+/* padding */
+.py-45 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/* margin */
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-60 {
+    margin-top: 60px !important;
+}
+
+.mb-150 {
+    margin-bottom: 150px;
+}
+
+.mt-103 {
+    margin-top: 103px !important;
+}
+
+.mb-126 {
+    margin-bottom: 126px;
+}
+
+.mt-31 {
+    margin-top: 31px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-130 {
+    margin-top: 130px;
+}
+
+/* gap */
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-36 {
+    gap: 36px;
+}
+
+/* navbar */
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rotate-42 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.z-6 {
+    z-index: 6;
+}
+
+.rotate-43 {
+    transform: rotate(-43deg);
+}
+
+.nav-btn {
+    padding: 13px 45px 13px 45px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid var(--color-radish-lips);
+}
+
+@media (max-width:991.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 5;
+        backdrop-filter: blur(40px);
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+
+    .mt-40 {
+        margin-top: 40px;
+    }
+}
