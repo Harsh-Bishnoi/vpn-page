@@ -16,7 +16,7 @@ $('.autoplay').slick({
 });
 
 $('.slider').slick({
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplaySpeed: 2000,
     arrows: true,
@@ -40,7 +40,5 @@ $('.slider').slick({
                 slidesToScroll: 1,
             }
         },
-
-
     ]
 });
