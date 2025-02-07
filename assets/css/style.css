@@ -243,12 +243,10 @@
 .header-box {
     width: 100%;
     background-color: var(--color-white);
-    border-radius: 10px
-}
-
-.bg-layer {
-    top: -40%;
-    left: 0;
+    border-radius: 10px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* section 2 */
